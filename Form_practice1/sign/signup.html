@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sign-Up</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header__image"><img src="../images/signup.svg" alt=""></div>
+        </header>
+        <main>
+            <div class="main__container">
+                <div class="title">Create your Account</div>
+                <form action="#" method="post">
+                    <div class="name">
+                        <label for="name_user">Name</label>
+                        <input type="text" placeholder="Enter your Name here" id="name_user">
+                    </div>
+                    <div class="email">
+                        <label for="email_user">Email</label>
+                        <input type="email" placeholder="Enter your Email here" id="email_user">
+                    </div>
+                    <div class="password">
+                        <label for="password_user">Password</label>
+                        <input type="password" placeholder="Enter your Password here" id="password_user">
+                    </div>
+                    <div class="age_gender">
+                        <div class="age">
+                            <label for="age_user">Age</label>
+                            <input type="text" placeholder="18" id="age_user">
+                        </div>
+                        <div class="gender">
+                            <div class="gender_title">Gender</div>
+                            <div class="choose">
+                                <div class="male">
+                                    <input type="radio" name="gender" value="male" id="male_user">
+                                    <label for="male_user">Male</label>
+                                </div>
+                                <div class="female">
+                                    <input type="radio" name="gender" value="female" id="female_user">
+                                    <label for="female_user">Female</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn">
+                        Sign-up
+                    </button>
+                </form>
+                <p class="or">- OR -</p>
+                <div class="link_singup">Create an account?  <a href="/index.html">Sign-Up</a></div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

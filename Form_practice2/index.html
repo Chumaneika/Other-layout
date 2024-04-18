@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="images/main.png" alt="cover">
+        </header>
+        <main>
+            <section class="main_head">
+                <div class="main_logo"><img src="images/logo.svg" alt="#"></div>
+                <div class="main_lang">
+                    <select name="languages" id="lang">
+                        <option checked value="en" class="choose_lang"><img src="" alt=""><p>EN</p></option>
+                        <option value="gr" class="choose_lang"><img src="" alt=""><p>GER</p></option>
+                        <option value="ru" class="choose_lang"><img src="" alt=""><p>RU</p></option>
+                        <option value="it" class="choose_lang"><img src="" alt=""><p>ITA</p></option>
+                    </select>
+                </div>
+            </section>
+            <section class="main_form">
+                <div class="main_title">Welcome Ruix</div>
+                <div class="main_sub">Welcome to Ruix. dashboard Community</div>
+                <div class="sign_google">
+                    <div class="google_image"><img src="./images/google.svg" alt="google"></div>
+                    <div class="google_link">Continue With Google</div>
+                </div>
+                <p class="or">Or</p>
+                <form action="#" method="post">
+                    <input type="text" name="name_user" placeholder="Name">
+                    <input type="email" name="email_user" placeholder="Email">
+                    <input type="password" name="password_user" placeholder="Password">
+                    <div>
+                        <input type="checkbox" name="remember_user" id="remember_user">
+                        <label for="remember_user">Remember Me</label>
+                    </div>
+                    <button class="btn">Register</button>
+                    <div class="link_login"><p>Already have an account?</p><span>Log in</span></div>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
